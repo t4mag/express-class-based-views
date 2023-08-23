@@ -1,0 +1,25 @@
+{
+  "name": "express-class-based-views",
+  "version": "0.0.1",
+  "description": "Class based view for express.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t4mag/express-class-based-views.git"
+  },
+  "keywords": [
+    "express",
+    "class-based-view",
+    "view",
+    "node"
+  ],
+  "author": "t4technow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t4mag/express-class-based-views/issues"
+  },
+  "homepage": "https://github.com/t4mag/express-class-based-views#readme"
+}
