@@ -2,11 +2,12 @@
 	"name": "express-class-based-views",
 	"version": "0.0.1",
 	"description": "Class based view for express.js",
-	"main": "main.js",
+	"main": "dist/main.js",
+	"types": "typings/index.d.ts",
 	"scripts": {
 		"build": "npx tsc",
-		"start": "node main.js",
-		"dev": "concurrently \"npx tsc --watch\" \"nodemon -q main.js\""
+		"start": "node dist/main.js",
+		"dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/main.js\""
 	},
 	"repository": {
 		"type": "git",
