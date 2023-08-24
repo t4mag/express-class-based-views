@@ -8,7 +8,6 @@ typings/
 [branch "dev"]
 generics/
 modelViews/
-
 typings/
 
 [branch "types"]
