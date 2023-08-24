@@ -1,17 +1,2 @@
 node_modules/
 .vscode/
-
-[branch "main"]
-src/
-typings/
-
-[branch "dev"]
-generics/
-modelViews/
-typings/
-
-[branch "types"]
-generics/
-modelViews/
-src/
-

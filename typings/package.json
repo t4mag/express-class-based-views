@@ -1,0 +1,48 @@
+{
+	"name": "@types/express-cbv",
+	"version": "0.0.1",
+	"description": "Class based view for express.js",
+	"types": "generics",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/main.js",
+		"dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/main.js\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/t4mag/express-class-based-views.git"
+	},
+	"keywords": [
+		"express",
+		"class-based-view",
+		"view",
+		"node"
+	],
+	"author": "T4Technow <dev@t4technow.com>",
+	"contributors": [
+		{
+			"name": "Mohammed Murshid",
+			"mail": "mohammedmurshid007@gmail.com",
+			"url": "https://github.com/t4technow",
+			"githubUsername": "t4technow"
+		},
+		{
+			"name": "Muhammed Vaseem",
+			"mail": "vaseemcholakkan@gmail.com",
+			"url": "https://github.com/vaseemcholakkan123",
+			"githubUsername": "vaseemcholakkan123"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/t4mag/express-class-based-views/issues"
+	},
+	"homepage": "https://github.com/t4mag/express-class-based-views#readme",
+	"devDependencies": {
+		"@types/express": "^4.17.17",
+		"@types/node": "^20.5.3",
+		"concurrently": "^8.2.1",
+		"nodemon": "^3.0.1",
+		"typescript": "^5.1.6"
+	}
+}
