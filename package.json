@@ -2,8 +2,7 @@
 	"name": "express-class-based-views",
 	"version": "0.0.1",
 	"description": "Class based view for express.js",
-	"main": "dist/main.js",
-	"types": "typings/index.d.ts",
+	"types": "typings/main.d.ts",
 	"scripts": {
 		"build": "npx tsc",
 		"start": "node dist/main.js",
@@ -19,7 +18,21 @@
 		"view",
 		"node"
 	],
-	"author": "t4technow",
+	"author": "T4Technow <dev@t4technow.com>",
+	"contributors": [
+		{
+			"name": "Mohammed Murshid",
+			"mail": "mohammedmurshid007@gmail.com",
+			"url": "https://github.com/t4technow",
+			"githubUsername": "t4technow"
+		},
+		{
+			"name": "Muhammed Vaseem",
+			"mail": "vaseemcholakkan@gmail.com",
+			"url": "https://github.com/vaseemcholakkan123",
+			"githubUsername": "vaseemcholakkan123"
+		}
+	],
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/t4mag/express-class-based-views/issues"
