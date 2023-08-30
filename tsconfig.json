@@ -104,14 +104,6 @@
 
 		/* Completeness */
 		// "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-<<<<<<< HEAD
-		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
-		// "baseUrl": "./",
-		// "paths": {
-		// 	"express-class-based-views/generics": ["dist/generics/views"]
-		// }
-=======
 		"skipLibCheck": true /* Skip type checking all .d.ts files. */
->>>>>>> 2738700c72a6131ffe83244fa59f8f156413c319
 	}
 }
